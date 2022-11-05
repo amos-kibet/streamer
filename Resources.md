@@ -1,6 +1,6 @@
 ## Elixir Tools
 
-- [mux](mux.com): Mux Video is an API that enables developers to build unique live and on-demand video experiences
+- [mux](mux.com): Mux Video is an API that enables developers to build unique live and on-demand video experiences. Mux is made up of an advanced transcoding engine, streaming origin, and expertly configured CDNs which all work together to provide the best video experience for your users with the least amount of headache for you.
 
 - [membrane](https://membrane.stream/): Provides RTC, server-side processing, multiple & switchable I/O protocols, seamless integration with any Elixir app, transcoding, monitor utilities
 
