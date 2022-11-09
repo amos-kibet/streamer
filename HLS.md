@@ -57,3 +57,15 @@ Other benefits of HLS streaming include ad insertion through the VPAID and VAST 
 7. **Secure Reliable Protocol**. It’s an open-source technology that aims to minimize the effects of jitter, bandwidth changes, and packet loss to optimize the streaming experience. It is considered the future of livestreaming due to its security, reliability, and low latency streaming.
 
 If you want to be on the cutting edge of video streaming protocols, consider adapting SRT. It is considered the future of streaming alongside HLS, WebRTC, and MPEG-DASH. SRT makes it easy to traverse firewalls without needing help, and it’s economical to deploy over the existing network infrastructure.
+
+Among the above protocols, the most widely used alternative to `HLS` is `MPEG-DASH`. Both use `TCP` over `HTTP`.
+
+However, several key differences distinguish the two protocols:
+
+- **Encoding formats**: `MPEG-DASH` allows the use of any encoding standards, while `HLS` requires the use `H.264 or H.265`
+
+- **Device support**: `HLS` is the only format supported by Apple devices.
+
+- **Segment length**:Default is 6s fro `HLS`, but it can be adjusted. For `MPEG-DASH`, it ranges between 2-10s, although the optimum length is 2-4s.
+
+- **Standardization**: `MPEG-DASH` is an international standard, `HLS` is not.

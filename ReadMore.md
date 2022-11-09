@@ -11,3 +11,5 @@
 - [H.264 Codec](https://www.dacast.com/blog/h-264-advanced-video-coding/)
 
 - [Understanding the HTTP Live Streaming Architecture](https://developer.apple.com/documentation/http_live_streaming/understanding_the_http_live_streaming_architecture)
+
+[Setting up adaptive streaming media sources](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources)

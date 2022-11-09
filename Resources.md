@@ -23,5 +23,9 @@
 
 - [Livestreaming Architecture](https://www.youtube.com/watch?v=RvsaosnEHWc)
 
-- [Scaling Facebook Live Videos to a Billion Users](https://www.youtube.com/watch?v=IO4teCbHvZw)
+- [Scaling Facebook Live Videos to a Billion Users ](https://www.youtube.com/watch?v=IO4teCbHvZw)
 - [JW Player](https://www.jwplayer.com/live-streaming/)
+
+- [gpac](https://github.com/gpac/gpac)
+
+- [DASHEncoder](https://github.com/slederer/DASHEncoder)
