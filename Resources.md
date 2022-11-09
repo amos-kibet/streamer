@@ -6,7 +6,7 @@
 
 ## General Tools
 
-- [ffmpeg](ffmpeg.org): A complete, cross-platform solution to record, convert and stream audio and video.
+- [ffmpeg](https://ffmpeg.org/): A complete, cross-platform solution to record, convert and stream audio and video.
 
 - [LiveSwitch](https://www.liveswitch.io/): Provides critical video infrastructure that powers the most engaging and interactive real-time communications and entertainment experiences on the web
 
