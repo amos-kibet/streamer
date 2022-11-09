@@ -20,3 +20,5 @@
 - [Ant Media Server](https://github.com/ant-media/Ant-Media-Server)
 
 - [Red5](https://github.com/red5pro)
+
+- [Livestreaming Architecture](https://www.youtube.com/watch?v=RvsaosnEHWc)
