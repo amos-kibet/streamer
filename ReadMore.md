@@ -8,4 +8,6 @@
 
 - [Find out Video Resolution and Frame Rate using VLC](https://www.vlchelp.com/find-video-resolution-frame-rate-vlc/)
 
-[H.264 Codec](https://www.dacast.com/blog/h-264-advanced-video-coding/)
+- [H.264 Codec](https://www.dacast.com/blog/h-264-advanced-video-coding/)
+
+- [Understanding the HTTP Live Streaming Architecture](https://developer.apple.com/documentation/http_live_streaming/understanding_the_http_live_streaming_architecture)
