@@ -22,3 +22,5 @@
 - [Red5](https://github.com/red5pro)
 
 - [Livestreaming Architecture](https://www.youtube.com/watch?v=RvsaosnEHWc)
+
+- [JW Player](https://www.jwplayer.com/live-streaming/)
