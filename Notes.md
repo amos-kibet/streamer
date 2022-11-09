@@ -51,3 +51,82 @@ In a nutshell, streaming starts from streamer's computer, to the streaming serve
 - Bitrate Video Streaming
 
 - H.264-formatted standard streaming protocol. Also known as MPEG-4 Part 10 or Advanced Video Coding (MPEG-4 AVC)
+
+**Video Encoding**
+
+It is the process of converting RAW video files to digital files so that they are not saved as individual images but fluid videos.
+
+In video editing and production, video encoding is the process of preparing the video for output, where the digital video is encoded to meet proper formats and specifications for recording and playback through the use of video encoder software.
+
+Also called video conversion. It converts a given video input into digital format that is compatible with most types of web players and mobile devices.
+
+**Encoding** It is a way of compressing large video files into more manageable chunks.
+
+**Decoding** Oppoaite of encoding.
+
+**Video Compression** It is using encoding to reduce video size. It happens at camera level. Modern smartphones & most porfessional cameras record video in the [H.264 video codec](https://www.dacast.com/blog/h-264-advanced-video-coding/).
+This means as the camera is recording, RAW images from the video sensor encode in real-time, typically using the `H.264 codec`. This compressed (or encoded) video is then recorded to the storage on the camera.
+
+**Encoding Formats** An encoding format is a type of technology used to facilitate the encoding process. It is
+made up of codecs & containers.
+The encoding format that you use will depend on what’s compatible with both your online video platform and your chosen live stream encoder.
+
+Some of the most popular encoding formats:
+
+```
+MP4, FLV, MOV, MKV, LXF, MXF, AVI, WebM, QuickTime
+```
+
+**Codecs** Are tools used for video file compression and playback. Usually hardware or software. They compress raw video and audio files between analog and digital formats and make them smaller.
+
+Most common video codec is `H.264`. Others are `MPEG-2, HEVC, VP9, QuickTime & WMV`
+
+**Containers** It is the part of the encoding format that holds together the audio and video codecs and the metadata for the video that is being encoded. The container stores all this information in one file (manifest file)
+
+**Transcoding** It is the process of compressing a video to create multiple renditions of different sizes. It is considered a type encoding. Basically, it is the process of creating copies of video files in different sizes.
+
+Factors to consider when deciding the video file size to serve viewers:
+
+- Time: longer = bigger files
+
+- Resolution (number p pixels): larger = bigger files
+
+- Frame rate: higher = bigger files
+
+- Amount of motion present in the video: more = bigger files
+
+**Adaptive Bitrate Streaming** Also known as variable bitrate streaming. Refers to delivering an appropriate rendition of a video to the viewer based on the strength and speed of their internet connection.
+
+See below image on guide to creating adaptive bitrate streaming:
+
+![Adaptive Bitrate Streaming Table](media/adaptive_bitrate_streaming.png "Adaptive Bitrate Streaming Table")
+
+### Common Video Encoding Challenges
+
+1. Most viewers tend to have slow internet connections. Using analytics, you can determine your viewers location, and depending on average internet speed in that area, serve them with appropriate video quality using adaptive bitrate encoding.
+
+2. Streamer wanting to save on bandwidth. The more often your videos play and the higher their quality, the more bandwidth you will need, and the more money you need to pay service providers. You need to consider which is more important – providing high-quality content to your viewers, or sticking to your budget.
+
+3. Encoded video having larger file size than original video. Remedy to this is to reduce the bitrate.
+
+4. Audio getting out of sync after encoding. This could have something to do with the frame rate of the video. With a tool like [this](https://www.vlchelp.com/find-video-resolution-frame-rate-vlc/), you can chedk the frame rate of your video. If it is unusual, that could cause audio to be out of sync. You can use `Two-pass Encoding` feature of a tool as the one above to solve the issue. Othe causes could be different audio and video lengths.
+
+5. Poor quality of uploaded video. Happens when you choose much lower frame size and bitrate of the target video, in relation to the original video. To get the maximum quality of your videos, be sure to use the original videos attributes in addition to any lower qualities you decide to render the video/stream.
+
+### Recap of Common Terminologies
+
+`Frame Rate`: Number of frames that display per second in a video. The faster the frames flicker along, the more lifelike and immersive the video becomes. The rate at which these still images display is expressed in frames per second (fps). Common frame rates are 24, 25, 30, and 60 fps.
+
+`Bitrate`: Describes how much data a video file contains (measured on a per-second basis). In general, a higher bitrate means better video/audio quality. Bitrates are usually measured in kilobits per second (kbps) or megabits per second (Mbps).
+
+`Video aspect ratio`: Proportional relationship between the width and height of the video. This is usually expressed in the width to height format. For example, most modern television and computer monitors have an aspect ratio of 16:9
+
+`Video resolution`: Number of pixels in a video file. It’s the width and height of the projected image, measured in pixels. For example, a video might have a resolution of 1280 (horizontal pixels) × 720 (vertical pixels). This is usually written as simply 1280×720, or abbreviated to 720p.
+
+`Codec`: A piece of software that compresses raw video and audio files when encoding and encodes or decodes the playback files. Codecs are necessary because video and audio files are very large. Common video codecs are H.264, MPEG-2, DivX, XviD, Theora, VP8, and the WMV family. Common audio codecs are MP3, AAC, Vorbis, and the WMA family.
+
+Remember, codecs do not determine the file’s extension. Rather, that’s the container format. Some of the most popular container formats include MOV (Quicktime), P4, OGG, and AVI.
+
+`Video Encoding`: The process of compressing and changing the format of raw video content to a digital file or format, which will in turn make the video content compatible for different devices and platforms. The main goal of encoding is to compress the content to take up less space.
+
+`Transmuxing`:The process that repackages content files without distorting the content itself. That allows the content to flow more easily between software via the RTMP and HLS protocols.
